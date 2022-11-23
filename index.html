@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>section-2</title>
+</head>
+
+<body>
+    <section class="section-2" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <h1 class="section-2__h1">Do you have a project in mind?
+            <br>Let's talk about your project.
+        </h1>
+        <p class="section-2__p">There are many variations of passages of Lorem Ipsum available,<br>
+            but the majority have suffered alteration.</p>
+        <a class="section-2__a" href="#">Let's work together</a>
+    </section>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+
+    }
+    /* body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .section-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #252B34;
+        height: 400px;
+        color: rgb(255, 255, 255);
+        gap: 20px;
+
+    }
+
+    .section-2__h1 {
+        font-size: 35px;
+    }
+
+    .section-2__p {
+        font-size: 13px;
+        color: #A5ACB5;
+    }
+
+    .section-2__a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        width: 200px;
+        border-radius: 5px;
+        background-color: #f1aa40;
+    }
+</style>
